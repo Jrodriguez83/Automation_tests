@@ -4,7 +4,7 @@ import homepage from "../pageObjects/homepage";
 import productDetailsPage from "../pageObjects/productDetailsPage";
 import { PaymentMethod } from "../pageObjects/cart";
 
-describe('First Test', () => {
+describe('Prieba E2E Opcion 3', () => {
 
     beforeEach(() => {
         Cypress.on('uncaught:exception', (err, runnable)=>{
