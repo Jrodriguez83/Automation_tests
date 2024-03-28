@@ -1,0 +1,15 @@
+
+
+
+* Al momento de hacer click en un producto desde los "Featured", es probable que este genere un "uncaught:exception",
+provocando fallas en la prueba automatizada.
+
+* Existen algunas navegaciones que por igual generan un "uncaught:exception"
+
+* Al navegar a otra pagina mediante click de un elemento, este no genera el evento "load" ya que algunas dependencias 
+estan utilizando http en vez de https como lo hace la pagina principal
+** Esto esta siendo manejado pasando "false" al "chromeWebSecurity" en cypress config.
+
+* No todos los productos utilizan el mismo template para poder ser agregado al carrito
+
+* La pagina no utiliza data-testid, por lo que se ve la necesidad de utilizar selectores mediante css y otros metodos.

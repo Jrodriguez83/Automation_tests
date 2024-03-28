@@ -1,0 +1,5 @@
+* Al agregar una mascota, si no se entra el campo id, se genera uno automatico, sin embargo, 
+el id generado podria ser el mismo si se ejecuta la llamada API 2 veces, de modo que estos Id no son unicos
+
+* Existe la posibilidad de que al agregar la mascota sin pasar un id, al momento de realizar una consulta por ID, esta no pueda encontrar el objeto
+Pero si es retornado al momento de consultar por estatus
