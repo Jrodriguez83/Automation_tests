@@ -1,0 +1,13 @@
+{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "fakejohn@email.com",
+    "telephone": "8889998787",
+    "company": "",
+    "address1": "123 test street",
+    "address2": "",
+    "city": "Phoenix",
+    "postCode": "38473",
+    "country": "United States",
+    "state": "Arizona"
+}
